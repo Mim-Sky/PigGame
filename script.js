@@ -10,13 +10,10 @@ const btnHold = document.querySelector(`.btn--hold`);
 const current0El = document.querySelector(`#current--0`);
 const current1El = document.querySelector(`#current--1`);
 
-
-
 //Starting conditions
 score0El.textContent = 0;
 score1El.textContent = 0;
 diceEl.classList.add(`hidden`);
-
 
 let currentScore = 0; // Variable that hold score added ti itself 
 
@@ -39,36 +36,3 @@ btnRoll.addEventListener(`click`, function() {
     //switch to next player
   }
 });
-
-
-
-// console.log(diceRollNumber());
-
-// if(diceRollNumber === 2) {
-//   diceEl = `dice-2.png`
-//   diceEl.classList.remove(`hidden`);
-// };
-
-
-
-// console.log(diceRollNumber());
-
-
-
-
-
-
-
-//Button functionality
-// const reset = function() {
-//   diceEl.classList.add(`hidden`);
-//   score0El.textContent = 0;
-//   score1El.textContent = 0;
-// }
-
-// newGameBtn.addEventListener(`click`, reset);
-
-
-
-
-
